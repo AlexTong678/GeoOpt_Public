@@ -21,5 +21,5 @@ def pointat(curve, t):
     return curve.PointAt(t)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
 
